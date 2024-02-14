@@ -1,9 +1,9 @@
-import React from 'react'
-import image from '../assets/unsplash_zvKx6ixUhWQ.jpg'
-import image1 from '../assets/clay-banks-GX8KBbVmC6c-unsplash 1.jpg'
-import image2 from '../assets/istockphoto-1495321240-2048x2048 1.jpg'
-import { Link } from 'react-router-dom'
-import './Supportus.css'
+import React from 'react';
+import image from '../assets/unsplash_zvKx6ixUhWQ.jpg';
+import image1 from '../assets/clay-banks-GX8KBbVmC6c-unsplash 1.jpg';
+import image2 from '../assets/istockphoto-1495321240-2048x2048 1.jpg';
+import { Link } from 'react-router-dom';
+import './supportus.css';
 
 function Supportus() {
   return (
