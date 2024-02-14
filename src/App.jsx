@@ -4,7 +4,7 @@ import Hom from './components/Hom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Category from './Categories/Categories';
-import Supportus from './Support Us/supportus';
+import Supportus from './SupportUs/Supportus';
 import SinUp from './Sinupproject/sinup';
 import Visit from './visit/Visit';
 import Books from './Dashboard/Books';
