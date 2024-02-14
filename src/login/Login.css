@@ -1,0 +1,94 @@
+.mami {
+  background-color: #C8AB8D;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+ 
+}
+
+.ap1 {
+  background-color: #c9a17a4f;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.541);
+  max-width: 400px;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.welcome {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.please {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+ label {
+  font-size: 1.6rem;
+}
+
+.password {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+
+
+.loginbut {
+  background-color: white;
+  color: #C8AB8D;
+  border: none;
+  border-radius: 50%;
+  width: 150px;
+  height: 50px;
+  padding: 12px 24px;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginbut:hover {
+  background-color: #b38f6a;
+}
+
+.add {
+  font-size: 1.6rem;
+}
+
+.login-span-2 {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.pas{
+  width: 100%;
+  padding: 10px;
+  font-size: 1.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  .ap1 {
+    padding: 20px;
+  }
+}

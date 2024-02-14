@@ -1,0 +1,18 @@
+
+#modal-overlay {
+    position: fixed;
+    width: 90%;
+    height: 100%;
+    padding:75px;
+    max-width:30%;
+    max-height:100%;
+    margin-left:450px;
+    background-color: #C8AB8D;
+    color: white;
+    z-index: 100;
+    cursor: pointer;
+    overflow-y: scroll
+  }
+  h3{
+    color: black;
+  }

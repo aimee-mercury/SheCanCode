@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 50vh;
+}
+.supportus-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    flex-direction: column;
+    background-color: #C8AB8D;
+}
+.supportus-heading{
+    text-align: center;
+    color: black;
+    margin-top: 1%;
+    padding: 1%;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.support-image2 img, .support-image3 img{
+    width: 28.5vw;
+    height: 37vh;
+}
+.support-image1 img{
+    width: 31vw;
+    height: 40.1vh;
+}
+.supportus-first-section{
+    display: flex;
+    align-content: center;
+    padding: 1%;
+}
+.supportus-first-section div h3{
+    font-size: 24px;
+    padding: 15px;
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+
+}
+.supportus-first-section div p{
+    font-size: 18px;
+    padding: 15px;
+    margin-top: rem;
+    margin-left: 2.5rem;
+}
+.supportus-heading-para{
+    width: 30vw;
+    height: 40vh;
+    border: 5px solid #000;
+    border-left: none;
+}
+.supportus-second-section{
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+    padding: 3%;
+    width: 70vw;
+    margin-left: 4%;
+}
+.visitus-button{
+    text-align: start;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.visitus-button button{
+    width: 11vw;
+    height: 5vh;
+    color: #fff;
+    background-color: #D0B999;
+    border: 2px solid #fff;
+    font-weight: 700;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.visitus-button button:hover{
+    color: #C8AB8D;
+    background-color: #fff;
+    border: none;
+}
+.second-section, .first-section{
+    display: flex;
+    gap: 5rem;
+}
+.supportus-button{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.supportus-button button{
+    width: 11vw;
+    height: 5vh;
+    color: #fff;
+    background-color: #D0B999;
+    border: 2px solid #fff;
+    font-weight: 700;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.supportus-button button:hover{
+    color: #C8AB8D;
+    background-color: #fff;
+    border: none;
+}
+.second-section, .first-section{
+    display: flex;
+    gap: 5rem;
+}
+.second-section{
+    width: 60.4vw;
+    height: 25vh;
+    border: 5px solid #000;
+    border-top: none;
+    margin-top: -0.5em;
+}
+.supportus-image-titles h3, .supportus-image-titles2 h3{
+    margin-top: 3%;
+    font-size: 24px;
+    margin-left: 3%;
+}
+.supportus-image-titles p, .supportus-image-titles2 p{
+    margin-top: 3%;
+    font-size: 18px;
+    margin-left: 3%;
+}
+.supportus-image-titles, .supportus-image-titles2{
+    width: 40vw;
+}
+
+@media only screen and (max-width: 600px){
+    .supportus-heading{
+        font-size: 16px;
+        padding: 0.5rem;
+    }
+    .support-image2 img, .support-image3 img{
+    width: 37vw;
+    height: 17vh;
+}
+
+.support-image1 img{
+    width: 40vw;
+    height: 30.1vh;
+}
+.supportus-first-section div{
+    width: 40vw;
+}
+.supportus-first-section div h3, .supportus-first-section div p{
+    font-size: 16px;
+    padding: 10px;
+}
+.supportus-heading-para{
+    width: 30vw;
+    height: 30vh;
+}
+.supportus-second-section{
+    padding: 3%;
+    width: 70vw;
+    margin-right:18%;
+}
+}

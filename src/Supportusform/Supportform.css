@@ -1,0 +1,329 @@
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.container1
+{
+  background-color: #D0B999;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;  
+    
+    font-weight: 200; 
+}
+
+
+.supportus{
+
+     background-image: url('../assets/image.png'); 
+     width: 500px;
+    justify-content: center;
+    color: aliceblue;
+    font-size: larger;
+    align-items: center;
+    margin-left: 40rem;
+    padding-right: 10rem;
+    height: 60rem; 
+     height: 57rem;  
+    margin-top: 10%;
+    padding-top: -30%;
+
+   
+ 
+   
+  }
+  .kigali {
+     margin-left: 90%; 
+   padding: 2%;
+  }
+  .phone{
+    /* margin-left: 80%; */
+    padding: 2%;
+  }
+  .email{
+    /* margin-left: 80%; */
+    padding: 3%;
+  }
+  .supportus h2{
+    margin-left: 50%;
+     padding-top: 30%; 
+  
+  }
+
+  .spp{
+    font-size: 15px;
+    padding-top: 20%;
+    margin-left: -25%;
+  
+  }
+  .bu{
+    margin-left: 10%;
+    display: inline-block; 
+       background-color:white;
+        border-radius: 2.5rem; 
+       font-size: 1.9rem;
+       transition: 5s ease;
+      color: #C8AB8D;
+      margin-top: -40%;
+
+  }
+  .supportname{
+    display: flex;
+    gap: 0.5rem;
+    width: 70%;
+    margin-left: 1rem;
+    border-radius: .8rem;
+  }
+  .supportfirst2{
+
+    width: 18.5rem;
+    padding:1rem;
+    font-size: 1.2rem;
+    color: black;
+     background: white; 
+    border-radius: .8rem;
+    margin: .6rem 0;
+    font-family:'sans-serif';
+    margin-left: -90%;
+   
+  }
+  .supportsecond3{
+    width: 19rem;
+    padding:0.9rem;
+    font-size: 1.4rem;
+    color: black;
+    background: white;
+    border-radius: .8rem;
+    margin: .6rem 0;
+    font-family:'sans-serif';
+    margin-left: -80%;
+  }
+  .supportfirst4{
+       width: 20rem;
+        padding:0.9rem;
+        font-size: 1.4rem;
+        color: black;
+        background: white;
+        border-radius: .8rem;
+        margin: .6rem 0;
+        font-family:'sans-serif';
+        margin-left: -80%;
+       
+  }
+  #seee{
+    width: 20rem;
+    padding:0.9rem;
+    font-size: 1.4rem;
+    color: black;
+    background: white;
+    border-radius: .8rem;
+    margin: .6rem 0;
+    font-family:'sans-serif';
+    justify-content: center;
+    margin-left: -77%;
+    gap: 3.9rem;
+   border: none; 
+   
+
+  }
+  .tex{
+    width: 100%;
+    padding:0.9rem;
+    font-size: 1.4rem;
+    color: black;
+    background: white;
+    border-radius: .8rem;
+    margin: .6rem 0;
+    font-family:'sans-serif';
+    justify-content: center;
+    margin-right: 80%;
+  }
+  .support-firstname-label{
+    font-size: 1.4rem;
+   margin-bottom: -20%;
+   margin-left: -90%;
+  }
+  .support-surname-label{
+    font-size: 1.4rem;
+    margin-left: -80%;
+  }
+  .support-third-label{
+    font-size: 1.4rem;
+    margin-left: -75%;
+    
+  }
+  .support-fouth-label{
+    font-size: 1.4rem;
+    margin-left: -80%;
+
+  }
+  .support-fith-label{
+    font-size: 1.4rem;
+    margin-left: -80%;
+  }
+  
+  .supportus2{
+    margin-right: 35rem;
+   
+  }
+  .location{
+   font-size: 2.9rem;
+  }
+  .pho{
+    font-size: 2.9rem;
+  }
+  .em{
+    font-size: 2.9rem;
+  }
+  .bu{
+    display: inline-block; 
+         padding:  1.5rem 2.8rem;  
+       background-color:white;
+        border-radius: 1.9rem; 
+       font-size: 1.3rem;
+       transition: 5s ease;
+       padding-bottom: -30%;
+       top: -20%;
+      
+     
+ 
+  }
+  .supportus2{
+    width: 500px;
+    justify-content: center;
+    color:black;
+    font-size: larger;
+    margin-left: 0.2rem;
+    padding-right: 10rem;
+    height: 60rem; 
+      
+      height: 57rem; 
+      margin-top: -4%;
+      background-color:  #C8AB8D;
+
+     
+  
+  }
+  .container{
+    margin-top: 20rem;
+  }
+
+.supportus2{
+  padding-left: 20rem;
+  margin-top: 10%;
+
+}
+.te{
+padding-bottom: 30%;
+margin-left: -80%;
+width: 200%;
+border-radius: .8rem;
+padding-bottom: 50%;
+
+}
+
+li{
+  list-style-type: none;
+}
+.kasuku {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:-20px;
+  padding: 30px;
+  margin-left: 15rem;
+}
+li{
+   margin-top: 40px; 
+  margin-left: 8px;
+
+}
+.two{
+  display: flex;
+}
+/* @media (max-width: 768px) {
+  .supportus,
+  .supportus2 {
+    width: 100%;
+    margin-left: 0;
+    padding-right: 2rem;
+    flex-direction: column;
+  }} */
+
+  @media screen and (max-width: 1082px){
+    .container{
+      margin-left: 0;
+      font-size: 0.6rem;
+
+    }
+    }
+    @media screen and (max-width: 978px){
+      .container{
+        margin-left: 0;
+        font-size: 0.4rem;
+      }
+      .supportus2{
+        margin-left: 0;
+        font-size: 0.4rem;
+      }
+      }
+
+
+      @media screen and (max-width: 830px){
+      .container{
+        margin: 0;
+        display: inline;
+        flex-direction: column;
+      }
+      .supportus{
+        margin: 0;
+        font-size: 0.6rem;
+      }
+      } 
+
+      @media screen and (max-width: 400px){
+        .container{
+          margin: 0;
+          display: inline;
+          font-size: 0.4rem;
+          line-height: 0.2rem;
+        
+          flex-direction: column;
+        }
+        .supportus{
+          margin: 0;
+          font-size: 2.9rem;
+          line-height: 0.3rem;
+        }
+        .supportus2{
+          margin: 0;
+          font-size: 0.9rem;
+          line-height: 0.2rem;
+        }
+        }  
+        @media screen and (max-width: 462px){
+          .container{
+            margin: 0;
+            display: inline;
+            font-size: 0.4rem;
+            line-height: 0.2rem;
+          
+            flex-direction: column;
+          }
+          .supportus{
+            margin: 0;
+            font-size: 2.9rem;
+            line-height: 0.3rem;
+          }
+          .supportus2{
+            margin: 0;
+            font-size: 0.9rem;
+            line-height: 0.2rem;
+          }
+          } 
+          .supportfith .te{
+            width: 42rem;
+          }
+    

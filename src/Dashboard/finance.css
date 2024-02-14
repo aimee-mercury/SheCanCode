@@ -1,0 +1,62 @@
+.finance-dash-container{
+    height: 92vh;
+    width: 79.8vw;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.finance-dash-container h4{
+  font-size: 20px;
+}
+.finance-dash-container h5{
+  font-size: 16px;
+}
+.finance-container{
+  display: flex;
+}
+.analytic, .design{
+  display: flex;
+  gap: 2rem;
+  width: 20vw;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 54rem;
+  padding: 10px;
+  border-bottom: 3px solid #000;
+}
+.title h5{
+  color: #777474;
+  font-size: 14px;
+}
+.analytic{
+  width: 30vw;
+  height: 10vh;
+  padding: 20px;
+}
+.analytic:hover{
+  background-color: #fff;
+}
+.content{
+  display: flex;
+  gap: 4rem;
+}
+.edit-delete-icons{
+  display: flex;
+  gap: 1rem;
+  margin-left: 7rem;
+}
+.delete-icon{
+  color: red;
+  cursor: pointer;
+}
+.edit-icon{
+  color: blue;
+  cursor: pointer;
+}

@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.products-container{
+    background-color: #C8AB8D;
+}
+.products-heading{
+    text-align: center;
+    padding: 1%;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.bookproducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5%;
+    
+}
+.image-book-products-1 img,
+.image-book-products-2 img,
+.image-book-products-3 img,
+.image-book-products-4 img{
+    width: 15vw;
+    height: 40vh;
+}
+.title-book-product-1,
+.title-book-product-2,
+.title-book-product-3,
+.title-book-product-4{
+    width: 15vw;
+    height: 15vh;
+    text-align: center;
+    background-color: #D0B999;
+}
+.title-book-product-1 p,
+.title-book-product-2 p,
+.title-book-product-3 p,
+.title-book-product-4 p{
+    font-size: 17px;
+}
+.title-book-product-1 p a,
+.title-book-product-2 p a,
+.title-book-product-3 p a,
+.title-book-product-4 p a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.products-button{
+    text-align: center;
+    margin-bottom: 1%;
+}
+.products-button button{
+    width: 12vw;
+    height: 5vh;
+    font-weight: 700;
+    color: #fff;
+    background-color: #D0B999;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.products-button button:hover{
+    color: #C8AB8D;
+    background-color: #fff;
+    border: none;
+}
+.products-button .arrow-icon{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+.products-heading{
+    font-size: 16px;
+    margin-top: 3%;
+    padding: 0.5rem;
+}
+.image-book-products-1 img,
+.image-book-products-2 img,
+.image-book-products-3 img,
+.image-book-products-4 img{
+    width: 15vw;
+    height: 16vh;
+}
+.title-book-products-1 h3,
+.title-book-products-2 h3,
+.title-book-products-3 h3,
+.title-book-products-4 h3{
+    font-size: 8px;
+    font-weight: 500;
+}
+.title-book-products-1 h3 a,
+.title-book-products-2 h3 a,
+.title-book-products-3 h3 a,
+.title-book-products-4 h3 a{
+    font-size: 8px;
+    font-weight: 500;
+    color: #fff;
+}
+.product-button{
+    text-align: center;
+    margin-bottom: 3%;
+    padding: 0.5rem;
+}
+.product-button button{
+    width: 31vw;
+    height: 4vh;
+    color: #C8AB8D;
+    border: none;
+    border-radius: 30px;
+    font-size: 12px;
+}
+.product-button .arrow-icon{
+    text-align: center;
+}
+}

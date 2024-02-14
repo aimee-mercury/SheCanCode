@@ -1,0 +1,142 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>book description</title>
+    <style>
+          .miya{
+        margin-top: 10px;
+        margin-left: 150px;
+       }
+        .popup-container {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .popup-content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Welcome to Our Bookstore</h1>
+    <div id="bookInfo">
+        <div id="bookInfo">
+            <img src="./bibo9.jpg" alt="">
+            <p><strong>Title:</strong> I Know Why the Caged Bird Sings</p>
+            <p><strong>Author:</strong> Maya Angelou</p>
+            <p><strong>Publish Time:</strong> 1969</p>
+            <p><strong>Summary:</strong> "I Know Why the Caged Bird Sings" is an autobiography by Maya Angelou, an American author and poet.</p>
+        </div>
+    </div>
+
+    <button onclick="openRentForm()">Borrow a Book</button>
+    <button onclick="openBuyForm()">Buy a Book</button>
+</div>
+
+<div class="popup-container" id="rentPopup">
+    <div class="popup-content">
+        <h2>Borrow a Book Form</h2>
+        <form id="rentForm">
+            <!-- Your form fields here -->
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="bookTitle">contacts:</label>
+            <input type="text" id="rentalDuration" name="bookTitle" >
+
+            <label for="bookTitle">Book Title:<label>
+            <input type="text" id="bookTitle" name="bookTitle" readonly placeholder="physical summary">
+
+            <label for="rentalDuration">Rental Duration (days):</label>
+            <input type="number" id="rentalDuration" name="rentalDuration" readonly placeholder="5">
+
+            <button type="button" onclick="submitRentForm()">Submit</button>
+        </form>
+        <button class="miya" onclick="closeRentForm()">Close</button>
+    </div>
+</div>
+
+<div class="popup-container" id="buyPopup">
+    <div class="popup-content">
+        <h2>Buy a Book Form</h2>
+        <form id="buyForm">
+            <!-- Your form fields here -->
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="bookTitle">Book Title:</label>
+            <input type="text" id="bookTitle" name="bookTitle" readonly placeholder="physical summary">
+
+            <label for="paymentDetails">Payment Details:</label>
+            <textarea id="paymentDetails" name="paymentDetails" readonly>momo:04045</textarea>
+            <textarea id="paymentDetails" name="paymentDetails" readonly>telephone:0791789685</textarea>
+
+            <button type="button" onclick="submitBuyForm()">Buy Now</button>
+        </form>
+        <button class="miya" onclick="closeBuyForm()">Close</button>
+    </div>
+</div>
+
+<script src="style.js"></script>
+<script>
+    function openRentForm() {
+        document.getElementById("rentPopup").style.display = "flex";
+    }
+
+    function closeRentForm() {
+        document.getElementById("rentPopup").style.display = "none";
+    }
+
+    function openBuyForm() {
+        document.getElementById("buyPopup").style.display = "flex";
+    }
+
+    function closeBuyForm() {
+        document.getElementById("buyPopup").style.display = "none";
+    }
+    function redirectToBook() {
+        // Replace the window.location.href with the provided link
+        window.location.href = 'https://manybooks.net/book/151703/read#epubcfi(/6/4[section1]!/4/4/2/2/1:0)';
+    }
+
+    function submitRentForm() {
+     
+        closeRentForm();
+        redirectToBook();
+    }
+
+    function submitBuyForm() {
+     
+        closeBuyForm();
+        redirectToBook();
+    }
+</script>
+
+</body>
+
+</html>

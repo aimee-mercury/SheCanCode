@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 90%;
+    font-family: sans-serif;
+}
+.categories-container{
+    background-color: #C8AB8D;
+}
+.category-heading{
+    text-align: center;
+    padding: 2%;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.bookcategories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin-bottom: 2%;
+}
+.image-book-category-1 img,
+.image-book-category-2 img,
+.image-book-category-3 img,
+.image-book-category-4 img{
+    width: 18vw;
+    height: 45vh;
+    margin-top: 1%;
+}
+.title-book-category-1,
+.title-book-category-2,
+.title-book-category-3,
+.title-book-category-4{
+    width: 18vw;
+    height: 4vh;
+    background-color: #D0B999;
+    text-align: center;
+}
+.categories-link{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px){
+.category-heading{
+    font-size: 16px;
+}
+.image-book-category-1 img,
+.image-book-category-2 img,
+.image-book-category-3 img,
+.image-book-category-4 img{
+    width: 18vw;
+    height: 18vh;
+    margin-top: 1%;
+}
+.image-book-category-1 h3,
+.image-book-category-2 h3,
+.image-book-category-3 h3,
+.image-book-category-4 h3{
+    font-size: 11px;
+}
+.title-book-category-1,
+.title-book-category-2,
+.title-book-category-3,
+.title-book-category-4{
+    width: 18vw;
+    height: 3vh;
+    background-color: #D0B999;
+    text-align: center;
+}
+}

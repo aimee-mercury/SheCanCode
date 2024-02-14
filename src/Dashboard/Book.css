@@ -1,0 +1,72 @@
+.book-container{
+  display: flex;
+}
+.dsh-add-btn {
+  width: 11vw;
+  height: 6vh;
+  border: 2px solid #D0B999;
+  background-color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 16px;
+}
+button:hover{
+  background-color: #C8AB8D;
+  color: #fff;
+  border: none;
+}
+.book-dash-container{
+    width: 79.7vw;
+    height: 92vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.add-book-dash{
+  text-align: center;
+  padding: 20px;
+}
+  .members-container-dashboard{
+    height: 92vh;
+    width: 79.8vw;
+    background-color: #D0B999;
+  }
+  .members-search-input{
+    border-radius: 7px;
+    border: 2px solid #D0B999;
+    width: 17vw;
+    height: 5vh;
+  }
+  .members-search-div{
+    display: flex;
+    padding: 0.5rem;
+  }
+  .dashboard-search-icon{
+    color: #fff;
+    font-size: 24px;
+  }
+  
+.dash-book-handle{
+    width: 70vw;
+  }
+.dsh-add-btn-div{
+    text-align: center;
+    margin-top: 3%; 
+}
+  .dsh-add-btn {
+    width: 11vw;
+    height: 6vh;
+    color:  #D0B999;;
+    background-color:  #fff;
+    border: 2px solid #D0B999;
+    font-weight: 700;
+    border-radius: 30px;
+    font-size: 16px;
+  }
+  .dsh-add-btn:hover{
+    background-color: #D0B999;
+    color: #fff;
+    border: none;
+  }

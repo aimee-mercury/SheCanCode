@@ -1,0 +1,21 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    margin: 7px;
+}
+.cont1{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem;
+     margin: 7px;
+}
+.cont2{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  padding: 3rem;
+  margin: 7px;
+}

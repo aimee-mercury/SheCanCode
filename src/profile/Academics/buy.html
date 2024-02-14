@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buy a Book Form</title>
+</head>
+<body>
+
+<div class="container">
+    <h2>Buy a Book Form</h2>
+    <form id="buyForm">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="bookTitle">Book Title:</label>
+        <input type="text" id="bookTitle" name="bookTitle" required>
+
+        <label for="paymentDetails">Payment Details:</label>
+        <textarea id="paymentDetails" name="paymentDetails" required></textarea>
+
+        <button type="button" onclick="submitBuyForm()">Buy Now</button>
+    </form>
+</div>
+
+<script src="style.js"></script>
+</body>
+</html>

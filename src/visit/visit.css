@@ -1,0 +1,366 @@
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.objj{
+  background-color: #D0B999;
+    height: 101vh; 
+    display: flex;
+    justify-content: center;  
+    
+    font-weight: 200; 
+
+}
+
+
+.vistus{
+
+     background-image: url('../assets/visitimage.png');  
+     width: 500px;
+    justify-content: center;
+    color: aliceblue;
+    font-size: larger;
+    align-items: center;
+    margin-left: 40rem;
+    padding-right: 10rem;
+    height: 60rem; 
+     height: 57rem;  
+    margin-top: 10%;
+    padding-top: -30%;
+
+   
+ 
+   
+  }
+  .kigali {
+     margin-left: 90%; 
+   padding: 2%;
+  }
+  .phone{
+    /* margin-left: 80%; */
+    padding: 2%;
+  }
+  .email{
+    /* margin-left: 80%; */
+    padding: 3%;
+  }
+  .vistus2 h2{
+    margin-left: 50%;
+     padding-top: 30%; 
+  
+  }
+
+  .sppp{
+    font-size: 15px;
+    padding-top: 20%;
+    margin-left: -25%;
+  
+  }
+  .bun{
+    color: #d69856;
+   margin-bottom: 50%;
+
+  }
+
+  .vistusfith{
+    /* display: flex; */
+    justify-content: space-around;
+  }
+  .vistusname{
+    display: flex;
+    gap: 0.5rem;
+    width: 80%;
+    margin-left: 1rem;
+    border-radius: .8rem;
+  }
+.vi{
+  margin-left: 50%;
+  padding-top: 20%;
+}
+  .vistusfirst2{
+
+    width: 19.5rem;
+    padding:0.9rem;
+    font-size: 1.2rem;
+    color: black;
+     background: white; 
+    border-radius: .8rem;
+    margin: .6rem 0;
+    font-family:'sans-serif';
+    margin-left: -85%;
+   
+  }
+  .vistussecond3{
+    width: 19.5rem;
+    padding:0.9rem;
+    font-size: 1.4rem;
+    color: black;
+    background: white;
+    border-radius: .8rem;
+    margin: .6rem 0;
+    font-family:'sans-serif';
+    margin-left: -80%;
+  }
+  .vistusfirst4{
+       width: 20rem;
+        padding:0.9rem;
+        font-size: 1.4rem;
+        color: black;
+        background: white;
+        border-radius: .8rem;
+        margin: .6rem 0;
+        font-family:'sans-serif';
+        margin-left: -83%;
+       
+  }
+  #senn{
+    width: 20rem;
+    padding:0.9rem;
+    font-size: 1.4rem;
+    color: black;
+    background: white;
+    border-radius: .8rem;
+    margin: .6rem 0;
+    font-family:'sans-serif';
+    justify-content: center;
+    margin-left: -77%;
+    gap: 3.9rem;
+   border: none; 
+   
+
+  }
+  .ten{
+    width: 100%;
+    padding:0.9rem;
+    font-size: 1.4rem;
+    color: black;
+    background: white;
+    border-radius: .8rem;
+    margin: .6rem 0;
+    font-family:'sans-serif';
+    justify-content: center;
+    margin-right: 80%;
+    gap :80rem;
+    font-weight: 200;
+  }
+  .vistus-firstname-label{
+    font-size: 1.4rem;
+   margin-bottom: -50%;
+   margin-left: -80%;
+  }
+  .vitus-surname-label{
+    font-size: 1.4rem;
+    margin-left: -70%;
+  }
+  .vistus-third-label{
+    font-size: 1.4rem;
+    margin-left: -70%;
+    
+  }
+  .vistus-fouth-label{
+    font-size: 1.4rem;
+    margin-left: -70%;
+
+  }
+  .vistus-fith-label{
+    font-size: 1.4rem;
+    margin-left: -70%;
+  }
+  
+  .vistus2{
+    margin-right: 35rem;
+   
+  }
+  .locationn{
+   font-size: 2.9rem;
+  }
+  .phoo{
+    font-size: 2.9rem;
+  }
+  .emm{
+    font-size: 2.9rem;
+  }
+  .bun{
+    display: inline-block; 
+         padding:  1.2rem 2.8rem;  
+       background-color:white;
+        border-radius: 15px; 
+       font-size: 1.3rem;
+       transition: 5s ease;
+       padding-bottom: -25%;
+       top: 30%;
+       height: 1 =0px;
+      /* padding-bottom: -90rem;  */
+      margin-bottom: -40%;
+      
+     
+ 
+  }
+  .vistus2{
+    width: 500px;
+    justify-content: center;
+    color:black;
+    font-size: larger;
+    margin-left: 0.2rem;
+    padding-right: 10rem;
+    height: 60rem; 
+      
+      height: 57rem; 
+      margin-top: -4%;
+      background-color:  #C8AB8D;
+
+     
+  
+  }
+  .visitcontainer{
+    margin-top: 20rem;
+  }
+
+.vistus2{
+  padding-left: 20rem;
+  margin-top: 10%;
+
+}
+.ten{
+padding-bottom: 30%;
+margin-left: -80%;
+width: 200%;
+border-radius: .8rem;
+margin-bottom: -10%;
+
+
+}
+
+li{
+  list-style-type: none;
+}
+.kasuku1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:-20px;
+  padding: 30px;
+  margin-left: 15rem;
+}
+li{
+   margin-top: 40px; 
+  margin-left: 8px;
+
+}
+.twoo{
+  display: flex;
+  gap:1rem;
+}
+.vistus3 label{
+  margin-right: 90%;
+  font-size: 1.7rem;
+ 
+}
+.vistusthirdd{
+  width: 40rem;
+  padding:0.9rem;
+  font-size: 1.7rem;
+  color: black;
+  background: white;
+  border-radius: .8rem;
+  margin: .6rem ;
+  font-family:'sans-serif';
+  justify-content: center;
+ margin-left: -15rem;
+} 
+.en{
+ 
+  margin-right:80%;
+}
+
+ @media (max-width: 768px) {
+  .vistus,
+  .vistus2 {
+    width: 100%;
+    margin-left:30% 0;
+    padding-right: 2rem;
+    flex-direction: column;
+  }} 
+
+   @media screen and (max-width: 1082px){
+    .objj{
+      margin-left: 0;
+      font-size: 0.6rem;
+
+    }
+    }
+    @media screen and (max-width: 978px){
+      .objj{
+        margin-left: 0;
+        font-size: 0.4rem;
+      }
+      .vistus2{
+        margin-left: 0;
+        font-size: 0.4rem;
+      }
+      }
+
+
+      @media screen and (max-width: 830px){
+        .objj{
+        margin: 0;
+        display: inline;
+        flex-direction: column;
+      }
+      .vistus{
+        margin: 0;
+        font-size: 0.6rem;
+      }
+      } 
+
+      @media screen and (max-width: 400px){
+        .objj{
+          margin: 0;
+          display: inline;
+          font-size: 0.4rem;
+          line-height: 0.2rem;
+        
+          flex-direction: column;
+        }
+        .vistus{
+          margin: 0;
+          font-size: 2.9rem;
+          line-height: 0.3rem;
+        }
+        .vistus2{
+          margin: 0;
+          font-size: 0.9rem;
+          line-height: 0.2rem;
+        }
+        }  
+        @media screen and (max-width: 462px){
+          .vistus{
+            margin: 0;
+            display: inline;
+            font-size: 0.4rem;
+            line-height: 0.2rem;
+          
+            flex-direction: column;
+          }
+          .vistus{
+            margin: 0;
+            font-size: 2.9rem;
+            line-height: 0.3rem;
+          }
+          .vistus2{
+            margin: 0;
+            font-size: 0.9rem;
+            line-height: 0.2rem;
+          }
+          }  
+    
+             .enn{
+        margin-left: -70%;
+       } 
+       .vistusfith .ten{
+        width: 42rem;
+        
+       }

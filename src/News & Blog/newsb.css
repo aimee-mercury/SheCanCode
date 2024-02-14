@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: sans-serif;
+}
+.newb-container{
+    background-color: #C8AB8D;
+}
+.newb-heading{
+    text-align: center;
+    padding: 2%;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.booknewb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    margin-bottom: 3%;
+}
+.image-book-newb-1 img,
+.image-book-newb-2 img,
+.image-book-newb-3 img,
+.image-book-newb-4 img{
+    width: 24vw;
+    height: 57vh;
+    margin-top: 1%;
+}
+.title-book-newb-1,
+.title-book-newb-2,
+.title-book-newb-3,
+.title-book-newb-4{
+    width: 24vw;
+    height: 4vh;
+    background-color: #D0B999;
+    text-align: center;
+}
+.title-book-newb-1 h3,
+.title-book-newb-2 h3,
+.title-book-newb-3 h3,
+.title-book-newb-4 h3{
+    font-size: 19px;
+    font-weight: 700;
+    color: #000;
+}
+
+@media only screen and (max-width: 600px){
+.newb-heading{
+        font-size: 16px;
+    }
+.image-book-newb-1 img,
+.image-book-newb-2 img,
+.image-book-newb-3 img,
+.image-book-newb-4 img{
+    width: 24vw;
+    height: 20vh;
+}
+.title-book-newb-1,
+.title-book-newb-2,
+.title-book-newb-3,
+.title-book-newb-4{
+    width: 24vw;
+    height: 3vh;
+}
+.title-book-newb-1 h3,
+.title-book-newb-2 h3,
+.title-book-newb-3 h3,
+.title-book-newb-4 h3{
+    font-size: 8px;
+    color: #fff;
+}
+}

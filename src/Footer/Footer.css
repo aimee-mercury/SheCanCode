@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-container-background-image{
+    background-image: url(../assets/unsplash_BfLNqdbqycI.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+} 
+.footer-partners-section{
+    display: flex;
+    justify-content: center;
+}
+.footer-logos{
+    display: flex;
+    gap: 5%;
+}
+.footer-logos img{
+    transition: background 0.5s, transform 0.5s;
+}
+.footer-logos img:hover{
+    width: 10vw;
+    height: 10vh;
+    transform: translateY(-14px);
+}
+.footer-partners{
+   display: flex;
+   justify-content: center;
+   padding: 5%;
+   
+}
+.footer-ourpartner, .footer-header{
+    font-family: "Gill Sans", sans-serif;
+}
+.unicef-logo, .soma-logo, .mastercard-logo, .nesa-logo, .shecancode-logo{
+    width: 10vw;
+    height: 10vh;
+}
+.footer-partner-line{
+    margin-top: 1%;
+    width: 3vw;
+    border-bottom: 9px solid #C8AB8D;
+}
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-heading-line{
+    margin-right: 18%;
+    margin-top: 3%;
+    width: 3.5vw;
+    border-bottom: 9px solid #C8AB8D;
+}
+.footer-partners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-logo-heading{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    padding: 2%;
+}
+.ourlogo{
+    width: 4.7vw;
+    height: 9vh; 
+    border-radius: 50%;
+}
+.footer-header{
+    margin-top: 5%;
+}
+.footer-first-paragraphs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.first-paragraphs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+.first-paragraphs p, .second-paragraphs p{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.second-paragraphs{
+    display: flex;
+}
+.footer-location-icon{
+    margin-right: 12px;
+}
+.location-icon{
+    color: #C8AB8D;
+    font-size: 23px;
+}
+.location-icon:hover{
+    color: #fff;
+}
+.footer-kigali{
+   margin-left: 20px;
+}
+.footer-follow-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    gap: 3%;
+}
+.footer-follow-icons a{
+    color: #C8AB8D;
+}
+.footer-follow-icons a:hover{
+    color: #fff;
+}
+.instagram-icon, .linkedin-icon, .facebook-icon, .twitter-icon{
+    font-size: 30px;
+}
+.footer-line-copyright{
+    border-top: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin-top: 3rem;
+}
+.footer-copyright{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.copyright-icon{
+    font-size: 12px;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-top: 2em;
+}
+.footer-nav div a{
+    color: #fff;
+    text-decoration: none;
+}
+/* Responsiveness for footer page */
+
+
+@media only screen and (max-width: 600px){
+    .footer-container-background-image{
+        height: 56vh;
+        width: 100%;
+    } 
+    .footer-ourpartner{
+        font-size: 27px;
+    }
+    .footer-partners{
+        margin-top: 7%;
+    }
+    .footer-logos{
+        gap: 1%;
+    }
+    .footer-logos img{
+        width: 67px;
+        height: 50px;
+    }
+    .footer-header{
+        font-size: 24px;
+    }
+    .footer-logo-heading .ourlogo{
+        width: 11vw;
+        height: 6vh;
+        margin-top: 30%;
+        margin-left: 70%;
+    }
+    .first-paragraphs p{
+        font-size: 13px;
+    }
+    .first-paragraphs{
+        margin-top: 4%;
+    }
+    .footer-street p{
+        font-size: 16px;
+    }
+    .second-paragraphs p{
+        font-size: 12px;
+        margin-top: 4%;
+    }
+    .location-icon{
+        font-size: 18px;
+        margin-bottom: 1%;
+    }
+    .instagram-icon, .linkedin-icon, .facebook-icon, .twitter-icon{
+        font-size: 18px;
+    }
+    .footer-copyright{
+        font-size: 9px;
+    }
+    .copyright-icon{
+        font-size: 8px;
+    }
+    .footer-copyright{
+        padding: 10px;
+    }
+    .footer-partner-line{
+        width: 34px;
+    }
+    .footer-heading{
+        margin-left: 10%;
+    }
+    .footer-heading-line{
+        width: 40px;
+    }
+}
