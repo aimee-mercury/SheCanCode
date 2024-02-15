@@ -9,7 +9,7 @@ import no7 from '../../../src/assets/no7.jpg'
 import no8 from '../../../src/assets/no9.jpg'
 import no9 from '../../../src/assets/no9.jpg'
 import no10 from '../../../src/assets/no10.jpg'
-import './biogr.css'
+import '../Biography/biogr.css';
 import {Link} from 'react-router-dom'
 import Footer from '../../Footer/Footer'
 import Navigation from '../../components/Navigation'

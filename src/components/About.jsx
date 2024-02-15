@@ -4,6 +4,8 @@ import Image1 from '../assets/Screenshot 2024-01-16 100423.png';
 import './about.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Navigation from './Navigation';
+import Footer from '../Footer/Footer';
 
 function About() {
   useEffect(() => {
@@ -39,6 +41,7 @@ function About() {
   }, []);
   return (
     <>
+    <Navigation/>
     <div className='about-container' data-aos="fade-up" data-aos-duration={1000}>
  <div className='about' id='About'>
 <h1>About the library</h1>
@@ -85,7 +88,7 @@ function About() {
       </div>
 
       <div className='card'>
-        <img src={Image1} alt='Image 1' />
+        <img src={Image1} className='im' alt='Image 1' />
         <div className='text'>
           <h2>What Sets Us Apart  </h2>
           <p>
@@ -101,6 +104,7 @@ function About() {
       </div>
     </div>
     </div>
+   
 </>
   )
 }

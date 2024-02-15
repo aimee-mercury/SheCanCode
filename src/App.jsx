@@ -4,7 +4,7 @@ import Hom from './components/Hom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Category from './Categories/Categories';
-import Supportus from './SupportUs/Supportus';
+import Supportus from './SupportUs/Support';
 import SinUp from './Sinupproject/sinup';
 import Visit from './visit/Visit';
 import Books from './Dashboard/Books';
@@ -34,7 +34,7 @@ function  App() {
       <Route path='/Categories' element={<Category/>}/>
       <Route path='/Support' element={<Supportus/>}/>
       <Route path='/signup' element={< SinUp/>}/>
-      <Route path="/BookDescription/:id" element={<BookDescription/>}/>
+      <Route path="/BookDescription" element={<BookDescription/>}/>
       <Route path='/Login' element={<Login/>}/>
       <Route path='/non-fiction' element={<Nonfiction/>}/>
       <Route path='/fiction' element={<Fiction/>}/>

@@ -7,6 +7,10 @@ import { Link } from 'react-router-dom'
 import './Categories.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from '../Footer/Footer'
+import Navigation from '../components/Navigation'
+import Newb from '../News & Blog/newsb'
+import Production from '../Production/production'
 
 function Category() {
   useEffect(() => {
@@ -17,6 +21,7 @@ function Category() {
   }, []);
   return (
     <>
+    <Navigation/>
     <div className='categories-container'data-aos="fade-up" data-aos-duration={1000}>
     <div className='category-heading' id='categories'><h2>Category</h2></div>
     <div className='bookcategories'>
@@ -46,6 +51,8 @@ function Category() {
       </div>
     </div>
     </div>
+    <Production/>
+      <Newb/>
     </>
   )
 }

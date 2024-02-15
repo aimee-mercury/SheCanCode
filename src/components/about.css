@@ -51,21 +51,19 @@
   }
   
   .card {
-
     margin-left: 10px; 
     margin: 20px; 
-
     border-radius: 8px;
     overflow: hidden;
   }
   
   .card img {
-    width: 70%;
+    width: 80%;
     margin-left: 5rem;
     height: 27vh;
     border-radius: 8px 8px 0 0;
   }
-  
+ 
   .card .text {
     padding: 25px;
     margin-bottom: 10px;

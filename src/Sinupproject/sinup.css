@@ -11,7 +11,7 @@
        
          }}
   .signup-container{
-         background-color: #C8AB8D;
+    
          height:125vh;
         
     }
@@ -31,12 +31,10 @@
       max-width:50rem;
        margin: 2rem auto; 
       text-align: center;
-      /* background-color:  rgb(208,185,153); */
-      height: 60rem;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.541);
+      background-color: #c9a17a4f;
       margin-top: 5rem;
-      background-color:  #C8AB8D;
       height: 70rem;
-
      width: 50rem;
       position: relative; 
      padding-top: 5%;  
@@ -178,7 +176,7 @@
           display: inline-block; 
           padding:  0.9rem 2.8rem;
           background-color:white;
-          color: rgb(208,185,153);
+          color: rgb(202, 135, 41);
           border-radius: 1.9rem;
           margin-right: 10%;
           gap: 20rem;

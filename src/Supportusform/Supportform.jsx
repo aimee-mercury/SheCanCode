@@ -31,7 +31,7 @@ function Support() {
       <li>readrwa@gmail.com</li>
     </ul>
   </div>
-   {/* <button className="btnsupport">Back<TbArrowBack className="bu" /></button>  */}
+
 
  </div>
  <div className="supportus2">

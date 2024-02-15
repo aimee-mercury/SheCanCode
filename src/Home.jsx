@@ -1,8 +1,7 @@
 import React from 'react'
 import Footer from './Footer/Footer'
-import Supportus from './Support Us/supportus'
-import Newb from './News & Blog/newsb'
-import Production from './Production/production'
+import Supportus from './SupportUs/Support'
+
 import Category from './Categories/Categories'
 import About from './components/About'
 import Hom from './components/Hom'
@@ -15,8 +14,6 @@ function Home() {
     <Hom/>
     <About/>
     <Category/>
-    <Production/>
-    <Newb/>
     <Supportus/>
     <Footer/>
     </div>

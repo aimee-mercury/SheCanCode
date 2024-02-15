@@ -6,12 +6,13 @@
 }
 .container1
 {
-  background-color: #D0B999;
-    height: 100vh; 
+  background-color: #D0B999; 
     display: flex;
-    justify-content: center;  
-    
+    justify-content: center; 
     font-weight: 200; 
+    margin-bottom: 20px;
+  
+  
 }
 
 
@@ -20,12 +21,12 @@
      background-image: url('../assets/image.png'); 
      width: 500px;
     justify-content: center;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: larger;
     align-items: center;
     margin-left: 40rem;
     padding-right: 10rem;
-    height: 60rem; 
+     
      height: 57rem;  
     margin-top: 10%;
     padding-top: -30%;
@@ -65,7 +66,7 @@
         border-radius: 2.5rem; 
        font-size: 1.9rem;
        transition: 5s ease;
-      color: #C8AB8D;
+      color: #c97f30;
       margin-top: -40%;
 
   }

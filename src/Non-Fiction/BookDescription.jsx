@@ -86,18 +86,18 @@ async function borrowBook(e){
             <div>
               <img src="" alt="" />
               <p>
-                <strong>Title:</strong> {book.title}
+                <strong>Title: the caged bird sings </strong> 
               </p>
               <p>
-                <strong>Author:</strong> {book.author}
+                <strong>Author: Mr Williams donan</strong> {book.author}
               </p>
               <p>
-                <strong>Publish Time:</strong> {book.publishedDate}
+                <strong>Publish Time: 2013</strong> {book.publishedDate}
               </p>
-              {/* <p>
-                <strong>Summary:</strong> "I Know Why the Caged Bird Sings" is an autobiography by
-                Maya Angelou, an American author and poet.
-              </p> */}
+              <p>
+                <strong>Summary:  "I Know Why the Caged Bird Sings" is an autobiography by
+                Maya Angelou, an American author and poet.</strong>
+              </p> 
             </div>
           </div>
         )}

@@ -6,45 +6,38 @@
 }
 
 .objj{
-  background-color: #D0B999;
-    height: 101vh; 
+  background-color: #D0B999; 
     display: flex;
     justify-content: center;  
-    
     font-weight: 200; 
 
 }
 
-
 .vistus{
 
-     background-image: url('../assets/visitimage.png');  
-     width: 500px;
+   background-image: url('../assets/visitimage.png');  
+
     justify-content: center;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: larger;
     align-items: center;
     margin-left: 40rem;
     padding-right: 10rem;
-    height: 60rem; 
-     height: 57rem;  
+margin-bottom: 20px;  
     margin-top: 10%;
     padding-top: -30%;
 
-   
- 
-   
   }
   .kigali {
      margin-left: 90%; 
    padding: 2%;
   }
   .phone{
-    /* margin-left: 80%; */
+  
     padding: 2%;
   }
   .email{
-    /* margin-left: 80%; */
+   
     padding: 3%;
   }
   .vistus2 h2{
@@ -61,14 +54,11 @@
   }
   .bun{
     color: #d69856;
-   margin-bottom: 50%;
+
 
   }
 
-  .vistusfith{
-    /* display: flex; */
-    justify-content: space-around;
-  }
+  
   .vistusname{
     display: flex;
     gap: 0.5rem;
@@ -172,7 +162,7 @@
   
   .vistus2{
     margin-right: 35rem;
-   
+   margin-bottom: 20px;
   }
   .locationn{
    font-size: 2.9rem;
@@ -185,18 +175,11 @@
   }
   .bun{
     display: inline-block; 
-         padding:  1.2rem 2.8rem;  
-       background-color:white;
-        border-radius: 15px; 
-       font-size: 1.3rem;
-       transition: 5s ease;
-       padding-bottom: -25%;
-       top: 30%;
-       height: 1 =0px;
-      /* padding-bottom: -90rem;  */
-      margin-bottom: -40%;
-      
-     
+    padding: 12px;  
+    background-color:white;
+    border-radius: 30px; 
+    font-size: 1.3rem;
+    transition: 2s ease;
  
   }
   .vistus2{
@@ -360,7 +343,4 @@ li{
              .enn{
         margin-left: -70%;
        } 
-       .vistusfith .ten{
-        width: 42rem;
-        
-       }
+      

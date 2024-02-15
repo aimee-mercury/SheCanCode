@@ -33,8 +33,8 @@ function Home() {
         playing
         loop
         muted
-        width="135%"
-        height="160%"
+        width="115%"
+        height="110%"
         style={{ position: 'absolute'}}
       />
         <Navigation />

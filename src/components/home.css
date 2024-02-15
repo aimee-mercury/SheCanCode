@@ -27,8 +27,9 @@ body {
   padding: 20px;
 }
 .landing-letsget-btn{
-  background-color: #D0B999;
+  background-color:white;
   font-weight: 700;
+  color: #b47431;
   font-size: 18px;
   padding: 13px 33px;
 }

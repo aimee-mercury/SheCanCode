@@ -28,10 +28,7 @@ function SinUp() {
       method: 'POST',
       url: 'http://localhost:5000/api/v1/auth/signup',
       data: data,
-      // headers:{
-      //   Authorization: `Bearer ${token}`,
-      //   "Content-Type": 'application/json',
-      // }
+      
     }).then((response)=>{
       console.log(response);
       toast.success("User Registered Successfully");
@@ -45,8 +42,7 @@ function SinUp() {
     }).catch(error => {
       console.log(error.response);
       toast.error('encountered error');
-      // toast.error(error.response?.data?.message || "something went wrong");
-      // setIsLoading(false);
+    
     });
   };
   return (
@@ -58,13 +54,13 @@ function SinUp() {
         <form action='' method='POST' onSubmit={handleSignUp}>
                <h1 className='signup-heading'>SignUp</h1><br/><br />
             <div className="sinup3">
-            <label  className='co'>Full Name</label><br/>
+            <label>Full Name</label><br/>
             <input type="text"  required  className='sinupthird' name="fullName" onChange={(e)=>setFullName(e.target.value)}/><br/>
-            </div><br />
-            <div className="sinup3">
+           <br />
             <label >Email</label><br/>
             <input type="email"  required className='sinupthird' name="email" onChange={(e)=>setEmail(e.target.value)}/>
             </div>
+            
             <div className="sinup5">
             <label >password</label><br/>
             <input type="password"  required className='sinupsix' name="Password" onChange={(e)=>setPassword(e.target.value)}/><br/>
@@ -77,9 +73,9 @@ function SinUp() {
             <input type="checkbox" className='larger-checkbox'/> I accept Terms of use and  privacy policy
             <br/><br/>
               <button type="submit" onClick={handleSignUp} className='btnsinup'>SignUp</button><br /><br />
-            <div className="register-link">
+          
                 <p className='sinup6'>Already have an account?<a href="login" className='up'>Login In Here</a></p>
-                </div>
+         
                 </div>
             </form>
         </div>
